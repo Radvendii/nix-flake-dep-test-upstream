@@ -5,6 +5,7 @@
 
     packages.x86_64-linux.default = nixpkgs.legacyPackages.x86_64-linux.runCommand "name" {} ''
       (
+        echo "self: ${self}"
         echo "rev: ${self.rev or "none"}"
         echo "shortRev: ${self.shortRev or "none"}"
         echo "lastModified: ${builtins.toString self.lastModified}"
