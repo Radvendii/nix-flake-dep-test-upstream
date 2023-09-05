@@ -1,1 +1,1 @@
-pkgs: pkgs.hello;
+pkgs: pkgs.hello
