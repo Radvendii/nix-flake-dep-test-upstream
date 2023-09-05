@@ -15,5 +15,7 @@
       ) > $out
     '';
 
+    packges.x86_64-linux.foo = import "${self}/foo.nix" nixpkgs.legacyPackages.x86_64-linux;
+
   };
 }
