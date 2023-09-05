@@ -15,7 +15,7 @@
       ) > $out
     '';
 
-    packges.x86_64-linux.foo = import "${self}/foo.nix" nixpkgs.legacyPackages.x86_64-linux;
+    packges.x86_64-linux.foo = builtins.trace "${self}" (import "${self}/foo.nix" nixpkgs.legacyPackages.x86_64-linux);
 
   };
 }
