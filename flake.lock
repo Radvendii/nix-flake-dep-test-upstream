@@ -2,22 +2,37 @@
   "nodes": {
     "nixpkgs": {
       "locked": {
-        "lastModified": 1694614115,
-        "narHash": "sha256-K0jrQzzCMg+F7kB8cuGODuyyXXojgUdX6Xzmoupk4DA=",
-        "owner": "nixos",
-        "repo": "nixpkgs",
-        "rev": "c9cc42714f301310e9919a89a99484619d613dc9",
-        "type": "github"
+        "lastModified": 1691368598,
+        "narHash": "sha256-ia7li22keBBbj02tEdqjVeLtc7ZlSBuhUk+7XTUFr14=",
+        "path": "/nix/store/631cgbs310h1rcix7zs171xzx7p2y97g-source",
+        "rev": "5a8e9243812ba528000995b294292d3b5e120947",
+        "type": "path"
       },
       "original": {
-        "owner": "nixos",
-        "repo": "nixpkgs",
-        "type": "github"
+        "id": "nixpkgs",
+        "type": "indirect"
       }
     },
     "root": {
       "inputs": {
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "super-upstream": "super-upstream"
+      }
+    },
+    "super-upstream": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1694615962,
+        "narHash": "sha256-PLeZLTrwz3B0YjiEk6XrFx6TbLJrLgX2F255bPLzUgg=",
+        "owner": "radvendii",
+        "repo": "nix-flake-dep-test-super-upstream",
+        "rev": "10b336c15ad5a62cd56b4f418aaf72fb8520b240",
+        "type": "github"
+      },
+      "original": {
+        "owner": "radvendii",
+        "repo": "nix-flake-dep-test-super-upstream",
+        "type": "github"
       }
     }
   },
