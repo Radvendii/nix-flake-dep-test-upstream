@@ -22,11 +22,11 @@
     "super-upstream": {
       "flake": false,
       "locked": {
-        "lastModified": 1694615962,
-        "narHash": "sha256-PLeZLTrwz3B0YjiEk6XrFx6TbLJrLgX2F255bPLzUgg=",
+        "lastModified": 1694616221,
+        "narHash": "sha256-qTF/IWYEwzwr56Z2a+t7Qq3zwiv3iW0pMycQIP9OZXM=",
         "owner": "radvendii",
         "repo": "nix-flake-dep-test-super-upstream",
-        "rev": "10b336c15ad5a62cd56b4f418aaf72fb8520b240",
+        "rev": "2d5b24484e0edc22805216cbc69b662da9817d66",
         "type": "github"
       },
       "original": {
